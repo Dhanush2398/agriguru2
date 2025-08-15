@@ -8741,3 +8741,20 @@ footer .footer-bottom.bg-light p {
 .thumb img{
 height: 300px;
 }
+.about-info .thumb img{
+  padding-top: 50px;
+  height: 500px;
+}
+@media (max-width: 768px) {
+    .about-info .thumb img {
+        padding-top: 20px; 
+        height: 300px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .about-info .thumb img {
+        padding-top: 10px;
+        height: 260px;
+    }
+}
