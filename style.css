@@ -8738,3 +8738,6 @@ footer .footer-bottom.bg-light p {
     font-weight: 900 !important;
     display: inline-block;
 }
+.thumb img{
+height: 300px;
+}
