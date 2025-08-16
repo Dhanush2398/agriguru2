@@ -8821,4 +8821,34 @@ nav.navbar.validnavs .navbar-brand > img {
 }
 
 
+.mobile-title {
+  flex: 1;
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobile-title .brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: #04509F;
+}
+
+.mobile-title .tagline {
+  font-size: 12px;
+  margin: 0;
+  color: #FD1309;
+}
+
+
+@media (min-width: 768px) {
+  .mobile-title {
+    display: none !important;
+  }
+}
 
