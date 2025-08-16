@@ -440,7 +440,7 @@ nav.validnavs .dropdown.megamenu-fw {
 
 nav.validnavs .container {
 	position: relative;
-	height: 80px;
+	height: 100px;
 }
 
 nav.validnavs .megamenu-fw .dropdown-menu {
@@ -3052,7 +3052,7 @@ ul.simple-menu-list > li i {
 
 	.navbar-brand>img {
 		height: auto;
-		max-height: 70px;
+		max-height: 90px;
 	}
 
 	.bg-dark .navbar-box .navbar-brand>img {
