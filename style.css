@@ -8784,3 +8784,22 @@ height: 300px;
     background: #002147 !important; 
     color: #ffffff; 
 }
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+  nav.navbar.validnavs .navbar-toggle {
+    margin: 0 260px !important;
+  }
+}
+
+	
+@media (min-width: 375px) and (max-width: 424px) {
+  nav.navbar.validnavs .navbar-toggle {
+    margin: 0 320px !important;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  nav.navbar.validnavs .navbar-toggle {
+    margin: 0 350px !important;
+  }
+}
