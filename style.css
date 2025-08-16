@@ -8786,20 +8786,20 @@ height: 300px;
 }
 
 
-@media (min-width: 320px) and (max-width: 374px) {
+nav.navbar.validnavs .navbar-toggle {
+  position: absolute;
+  right: 15px;  
+  top: 15px;     
+  margin: 0;    
+}
+
+
+@media (min-width: 375px) and (max-width: 425px) {
   nav.navbar.validnavs .navbar-toggle {
-    margin: 0 260px !important;
+    right: 20px;
+    top: 15px;
   }
 }
 
-	
-@media (min-width: 375px) and (max-width: 424px) {
-  nav.navbar.validnavs .navbar-toggle {
-    margin: 0 320px !important;
-  }
-}
-@media (min-width: 425px) and (max-width: 767px) {
-  nav.navbar.validnavs .navbar-toggle {
-    margin: 0 350px !important;
-  }
-}
+
+
