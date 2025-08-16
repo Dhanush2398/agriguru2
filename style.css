@@ -8758,3 +8758,30 @@ height: 300px;
         height: 260px;
     }
 }
+.mobile-user-login {
+  margin-top: 1rem;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 1rem; 
+}
+
+.mobile-user-login a {
+    background: var(--color-primary);
+    border-radius: 5px;
+    color: #002147;
+    display: inline-flex; 
+    align-items: center; 
+    font-weight: 600;
+    padding: 8px 25px;
+    text-decoration: none;
+}
+
+
+.mobile-user-login a i {
+    margin-right: 8px;
+}
+.mobile-user-login a:hover {
+    background: #002147 !important; 
+    color: #ffffff; 
+}
