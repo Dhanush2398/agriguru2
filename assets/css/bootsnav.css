@@ -181,7 +181,7 @@ Version: 1.0
 
 .navbar-brand>img {
 	display: block;
-	height: 50px;
+	height: 80px;
 }
 
 .navbar-toggle {
@@ -440,6 +440,7 @@ nav.validnavs .dropdown.megamenu-fw {
 
 nav.validnavs .container {
 	position: relative;
+	height: 80px;
 }
 
 nav.validnavs .megamenu-fw .dropdown-menu {
@@ -931,7 +932,7 @@ body {
 }
 
 .side .widget .logo img {
-	height: 50px;
+	height: 80px;
 }
 
 body.on-side nav.navbar::after {
@@ -3051,7 +3052,7 @@ ul.simple-menu-list > li i {
 
 	.navbar-brand>img {
 		height: auto;
-		max-height: 60px;
+		max-height: 70px;
 	}
 
 	.bg-dark .navbar-box .navbar-brand>img {

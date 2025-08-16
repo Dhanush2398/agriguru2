@@ -1039,8 +1039,8 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 /* Site Heading */
 
 .site-heading {
-  margin-bottom: 60px;
-  margin-top: -5px;
+  margin-bottom: 10px;
+  margin-top: 15px;
   overflow: hidden;
 }
 
@@ -1176,7 +1176,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 =================================================================== */
 body, .banner-area, 
  .banner-area div {
-  height: 95%;
+  height: 500px;
 }
 
 .banner-area.auto-height, 
@@ -1407,7 +1407,7 @@ body, .banner-area,
 }
 
 .banner-area .carousel-zoom .slider-thumb {
-  height: 95%;
+  height: 500px;
   position: absolute;
   width: 100%;
 }
@@ -7830,8 +7830,7 @@ footer .footer-bottom.bg-light p {
   }
 
   .default-padding {
-  
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   .padding-xl {
