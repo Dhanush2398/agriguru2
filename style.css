@@ -8803,3 +8803,30 @@ nav.navbar.validnavs .navbar-toggle {
 
 
 
+nav.navbar.validnavs .navbar-brand {
+  position: relative !important;
+  left: 0 !important;
+  right: auto !important;
+  transform: none !important;      
+  margin-left: 0 !important;
+  margin-right: auto !important;   
+  float: left !important;          
+  display: inline-block;
+}
+
+nav.navbar.validnavs .navbar-brand > img {
+  height: auto;
+  max-height: 90px;
+  display: block;
+}
+
+
+@media (max-width: 991px) {
+  nav.navbar.validnavs.brand-center .navbar-brand {
+    position: relative !important;
+    left: 0 !important;
+    transform: none !important;
+    margin: 0 !important;
+  }
+}
+

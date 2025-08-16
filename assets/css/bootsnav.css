@@ -3050,10 +3050,7 @@ ul.simple-menu-list > li i {
 		max-height: 60px;
 	}
 
-	.navbar-brand>img {
-		height: auto;
-		max-height: 90px;
-	}
+
 
 	.bg-dark .navbar-box .navbar-brand>img {
 		filter: brightness(0) invert(1);
